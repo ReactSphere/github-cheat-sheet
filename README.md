@@ -289,7 +289,7 @@ To link to an issue in another repository, `{user}/{repo}#ISSUE_NUMBER`, e.g., `
 
 Pull Requests and Issues can now be locked by owners or collaborators of the repo.
 
-![Lock conversation](https://cloud.githubusercontent.com/assets/2723/3221693/bf54dd44-f00d-11e3-8eb6-bb51e825bc2c.png)
+![Lock conversation](https://docs.github.com/assets/cb-56102/images/help/issues/lock-conversation.png)
 
 This means that users who are not collaborators on the project will no longer be able to comment.
 
@@ -378,7 +378,7 @@ Which produces:
 
 When on a comment thread and you want to quote something someone previously said, highlight the text and press `r`, this will copy it into your text box in the block-quote format.
 
-![Quick Quote](https://f.cloud.github.com/assets/296432/124483/b0fa6204-6ef0-11e2-83c3-256c37fa7abc.gif)
+![Quick Quote](https://docs.github.com/assets/cb-24446/images/help/images/quick-quote.gif)
 
 ### Pasting Clipboard Image to Comments
 
@@ -479,7 +479,7 @@ After a pull request is merged, you may find it does not help anything or it was
 
 You can revert it by clicking the **Revert** button on the right side of a commit in the pull request page.
 
-![Revert button](https://camo.githubusercontent.com/0d3350caf2bb1cba53123ffeafc00ca702b1b164/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f70756c6c5f72657175657374732f7265766572742d70756c6c2d726571756573742d6c696e6b2e706e67)
+![Revert button](https://docs.github.com/assets/cb-126344/images/help/pull_requests/revert-commit-button.png)
 
 ### Diffs
 
