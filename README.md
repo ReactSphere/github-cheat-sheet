@@ -106,6 +106,8 @@ Add `?w=1` to any diff URL to ignore whitespace changes, letting you focus only 
 https://github.com/user/repo/pull/1/files?w=1
 ```
 
+![Diff without whitespace](https://github-images.s3.amazonaws.com/blog/2011/secrets/whitespace.png)
+
 ### Adjust Tab Space
 
 Add `?ts=4` to a file or diff URL to display tabs as 4 spaces instead of the default 8. Adjust the number as needed.
@@ -121,6 +123,8 @@ View all commits by a specific author:
 ```
 https://github.com/user/repo/commits/main?author=username
 ```
+
+![Commit history by author](https://i.imgur.com/S7AE29b.png)
 
 ### Cloning a Repository
 
@@ -162,6 +166,8 @@ Visit the branches page to see which branches haven't been merged:
 https://github.com/user/repo/branches
 ```
 
+![Compare branches not merged](https://i.imgur.com/0FEe30z.png)
+
 ### Gists
 
 Gists are lightweight repositories for code snippets. They can be cloned and pushed to like regular repos:
@@ -172,6 +178,8 @@ git clone https://gist.github.com/gist-id
 
 Add `.pibb` to any Gist URL for an embeddable HTML-only version.
 
+![GitHub Gist](https://i.imgur.com/VkKI1LC.png)
+
 ### Git.io URL Shortener
 
 Create short URLs for GitHub links:
@@ -179,6 +187,8 @@ Create short URLs for GitHub links:
 ```bash
 curl -i http://git.io -F "url=https://github.com/your-link"
 ```
+
+![Git.io URL shortener](https://i.imgur.com/6JUfbcG.png)
 
 ### Keyboard Shortcuts
 
@@ -189,6 +199,8 @@ Press `?` on any GitHub page to see available keyboard shortcuts:
 - `s` — Search the repository
 - `l` — Edit labels on issues
 - `y` — Freeze the current view (permalink)
+
+![Keyboard shortcuts](https://i.imgur.com/y5ZfNEm.png)
 
 ### Line Highlighting
 
@@ -206,6 +218,8 @@ Use keywords like `fix`, `close`, or `resolve` followed by the issue number to a
 git commit -m "Fix login bug, closes #42"
 ```
 
+![Closing issues via commit](https://i.imgur.com/Uh1gZdx.png)
+
 ### Cross-Link Issues
 
 Link to issues in other repos using `user/repo#number`:
@@ -214,13 +228,19 @@ Link to issues in other repos using `user/repo#number`:
 See octocat/repo#123 for more details.
 ```
 
+![Cross-link issues](https://camo.githubusercontent.com/447e39ab8d96b553cadc8d31799100190df230a8/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f626c6f672f323031312f736563726574732f7265666572656e6365732e706e67)
+
 ### Locking Conversations
 
 Repository owners and collaborators can lock conversations on Issues and Pull Requests to prevent further comments from non-collaborators.
 
+![Lock conversation](https://cloud.githubusercontent.com/assets/2723/3221693/bf54dd44-f00d-11e3-8eb6-bb51e825bc2c.png)
+
 ### CI Status on Pull Requests
 
 When CI services like GitHub Actions or Travis CI are configured, their status appears directly on pull requests, showing whether checks pass or fail.
+
+![CI Status on Pull Requests](https://cloud.githubusercontent.com/assets/1687642/2700187/3a88838c-c410-11e3-9a46-e65e2a0458cd.png)
 
 ### Filters for Issues and PRs
 
@@ -267,13 +287,19 @@ Images are cached on GitHub's CDN.
 
 Highlight text in a comment thread and press `r` to quote it in your reply.
 
+![Quick Quote](https://f.cloud.github.com/assets/296432/124483/b0fa6204-6ef0-11e2-83c3-256c37fa7abc.gif)
+
 ### Paste Clipboard Images
 
 Paste screenshots directly (`Ctrl+V` / `Cmd+V`) into comment fields — they auto-upload to GitHub.
 
+![Paste clipboard image](https://cloud.githubusercontent.com/assets/39191/5794265/39c9b65a-9f1b-11e4-9bc7-04e41f59ea5f.png)
+
 ### Quick Licensing
 
 When creating a repo or adding a `LICENSE` file, GitHub offers a template picker with popular open-source licenses.
+
+![Quick licensing](https://i.imgur.com/Chqj4Fg.png)
 
 ### Task Lists
 
@@ -284,6 +310,8 @@ Create interactive checkboxes in Issues, PRs, and Markdown:
 - [ ] Write tests
 - [ ] Deploy
 ```
+
+![Task Lists](https://i.imgur.com/jJBXhsY.png)
 
 ### Relative Links
 
@@ -298,13 +326,19 @@ Use relative links in your docs so they work regardless of where the repo is hos
 
 GitHub renders `.csv` and `.tsv` files as sortable, filterable tables in the browser.
 
+![Tabular data rendering](https://camo.githubusercontent.com/1b6dd0157ffb45d9939abf14233a0cb13b3b4dfe/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3238323735392f3937363436322f33323038336463652d303638642d313165332d393262322d3566323863313061353035392e706e67)
+
 ### Rendering PDFs
 
 PDF files are viewable directly in the browser with built-in rendering.
 
+![PDF rendering](https://cloud.githubusercontent.com/assets/1000669/7492902/f8493160-f42e-11e4-8cea-1cb4f02757e7.png)
+
 ### Revert a Pull Request
 
 After merging a PR, click the **Revert** button on the merge commit to create a new PR that undoes the changes.
+
+![Revert button](https://camo.githubusercontent.com/0d3350caf2bb1cba53123ffeafc00ca702b1b164/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f68656c702f70756c6c5f72657175657374732f7265766572742d70756c6c2d726571756573742d6c696e6b2e706e67)
 
 ### Diffs
 
@@ -312,9 +346,13 @@ After merging a PR, click the **Revert** button on the merge commit to create a 
 
 For Markdown files, GitHub shows both source and rendered views in diffs, making it easy to review documentation changes.
 
+![Rendered prose diffs](https://github-images.s3.amazonaws.com/help/repository/rendered_prose_diff.png)
+
 #### Expanding Context in Diffs
 
 Click the **unfold** button (`` `...` ``) in diff gutters to reveal more context around changes.
+
+![Expanding context in diffs](https://f.cloud.github.com/assets/22635/1610539/863c1f64-5584-11e3-82bf-151b406a272f.gif)
 
 #### Diff/Patch of Pull Request
 
@@ -329,6 +367,8 @@ https://github.com/user/repo/pull/1.patch
 
 GitHub supports multiple diff views for images: swipe, onion skin, and side-by-side comparison.
 
+![Image diffs](https://cloud.githubusercontent.com/assets/2546/3165594/55f2798a-eb56-11e3-92e7-b79ad791a697.gif)
+
 ### Contribution Guidelines
 
 Add these files to guide contributors:
@@ -338,6 +378,8 @@ Add these files to guide contributors:
 - `PULL_REQUEST_TEMPLATE.md` — Pre-fills the PR form
 
 Place them in the repo root or a `.github/` directory.
+
+![Contributing guidelines](https://camo.githubusercontent.com/71995d6b0e620a9ef1ded00a04498241c69dd1bf/68747470733a2f2f6769746875622d696d616765732e73332e616d617a6f6e6177732e636f6d2f736b697463682f6973737565732d32303132303931332d3136323533392e6a7067)
 
 ### SSH Keys
 
@@ -359,9 +401,13 @@ https://github.com/username.png
 
 Mark a repository as a template in Settings. Users can then generate new repositories from it with one click.
 
+![Repository templates](https://i.postimg.cc/L8PKCHx0/New-Template.gif)
+
 ### GitHub Codespaces
 
 Spin up a cloud-hosted VS Code environment instantly from any repository. Accessible via the **Code** button.
+
+![GitHub Codespaces](https://user-images.githubusercontent.com/82404/84083470-8c8a2680-a998-11ea-80b5-0f5b72448761.png)
 
 ### GitHub Actions
 
@@ -377,6 +423,8 @@ jobs:
       - uses: actions/checkout@v4
       - run: npm test
 ```
+
+![GitHub Actions](https://user-images.githubusercontent.com/1687642/135335208-9e14ef2a-701c-4871-8b1b-53d4051722d8.png)
 
 ### Dependabot
 
@@ -395,6 +443,8 @@ updates:
 
 Enable community discussions separate from issues. Great for Q&A, show-and-tell, and general conversation.
 
+![GitHub Discussions](https://user-images.githubusercontent.com/1687642/101420944-0c1f2a80-38a9-11eb-9d87-4e3468619686.png)
+
 ### Code Owners
 
 Define a `CODEOWNERS` file to automatically assign reviewers for specific files or directories:
@@ -412,6 +462,8 @@ Require reviews, status checks, and signed commits before merging into important
 ### GitHub Pages
 
 Host static websites directly from your repository. Enable in Settings → Pages.
+
+![GitHub Pages](https://user-images.githubusercontent.com/1687642/135335208-9e14ef2a-701c-4871-8b1b-53d4051722d8.png)
 
 ### GitHub Copilot
 
@@ -487,9 +539,13 @@ gh run view
 
 Manage repositories, review code, and merge PRs from iOS and Android devices.
 
+![GitHub Mobile](https://user-images.githubusercontent.com/1687642/135335208-9e14ef2a-701c-4871-8b1b-53d4051722d8.png)
+
 ### Pin Repositories to Profile
 
 Pin up to 6 repositories to your GitHub profile for easy access.
+
+![Pinned repositories](https://user-images.githubusercontent.com/6351798/48378000-3e72a780-e68c-11e8-8573-7c6d0099e6a5.png)
 
 ### Profile README
 
@@ -563,6 +619,8 @@ Get a compact status view:
 git status -sb
 ```
 
+![Git status -sb](https://i.imgur.com/K0OY3nm.png)
+
 ### Styled Git Log
 
 Beautiful one-line log with graph:
@@ -571,6 +629,8 @@ Beautiful one-line log with graph:
 git log --all --graph --pretty=format:'%Cred%h%Creset -%C(auto)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 ```
 
+![Styled git log](https://i.imgur.com/58eOtkW.png)
+
 ### Git Query
 
 Search commit messages for the most recent match:
@@ -578,6 +638,8 @@ Search commit messages for the most recent match:
 ```bash
 git show :/fix-login
 ```
+
+![Git query](https://i.imgur.com/icaGiNt.png)
 
 ### Git Grep
 
@@ -614,6 +676,8 @@ Browse your local repository in a web browser:
 ```bash
 git instaweb
 ```
+
+![Git instaweb](https://i.imgur.com/Dxekmqc.png)
 
 ### Git Bisect
 
